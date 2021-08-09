@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*, body{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.item{
+    
+    
+    margin: 30px;
+}
+
+.header{
+    background-color: #FFAB11;
+    margin: 0 30px;
+    border-radius: 10px;
+}
+
+.nav{
+    background-color: #888;
+    height: 80px;
+    overflow: hidden;
+    line-height: 80px;
+    /* position: relative; */
+}
+
+.nav li{
+    float: right;
+    list-style-type: none;
+    margin: 0 15px;
+    transition: transform .4s;
+}
+
+.nav li.active{
+    float:right;
+    list-style-type: none;
+    margin: 0 15px;
+    
+}
+
+.nav li:hover{
+    transform: scale(1.4);
+}
+
+.nav li.phones{
+    width: 160px;
+}
+
+.nav li.phones a{
+    display: inline-block;
+}
+
+.nav a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.al{
+    background-color: #bbb;
+    float: left;
+    width: 20%;
+    margin: 0 30px;
+}
+
+.ar{
+    background-color: #333;
+    float: right;
+    width: 20%;
+    margin: 0 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.main{
+    background-color: red;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 30px auto;
+    /* overflow: scroll; */
+    
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+.footer{
+    background-color: #000;
+    height: 80px;
+    overflow: hidden;
+    line-height: 80px;
+    border-radius: 10px;
+}
+
+.footer li{
+    float: right;
+    list-style-type: none;
+    margin: 0 15px;
+    transition: transform .4s;
+}
+
+.footer li.active{
+    float:right;
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+.footer li:hover{
+    transform: scale(1.4);
+}
+
+.footer a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.avesome{
+    background: #fc3;
+    display: block;
+    block-size: 40px;
+    max-width: 90px;
+    max-height: 15px;
+    size: 100%;
+    overflow: hidden;
+    margin: 60px 60px 60px 60px;
+    margin-left: 70%;
+    border-radius: 10px;
+    padding: 25px 25px;
+}
